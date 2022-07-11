@@ -1,0 +1,18 @@
+public class MobilListrik extends Mobil{
+    private int lamaRecharge;
+    public void setLamaRecharge(int lamaRecharge){
+        this.lamaRecharge = lamaRecharge;
+    }
+    public int getLamaRecharge(){
+        return lamaRecharge;
+    }
+    public MobilListrik(String p, String m, String w, int k, int lamaRecharge){
+        setPabrikan(p);
+        setModel(m);
+        setWarna(w);
+        setKecepatanMax(k);
+        this.lamaRecharge = lamaRecharge;
+    }
+    public MobilListrik(){
+    }
+}
